@@ -67,35 +67,14 @@ Footprinting-and-Network-Discovery/
     └── whois_nslookup_notes.txt
 ## 🔍 Practical Work
 
-### 🌍 1. Domain Footprinting
-**Tool:** WHOIS
-
-Collected and examined domain registration information to understand domain ownership and registration details.
-
-### 🛰️ 2. DNS Enumeration
-**Tools:** NSLookup | DNSRecon
-
-Explored DNS records and gathered domain-related information using DNS lookup and enumeration techniques.
-
-### 🌐 3. Web Technology Analysis
-**Tool:** WhatWeb
-
-Identified web technologies and frameworks used by target websites.
-
-### 📡 4. HTTP Header Analysis
-**Tool:** cURL
-
-Sent HTTP requests and examined response headers to understand server responses and web communication.
-
-### 🛡️ 5. WAF Detection
-**Tool:** Wafw00f
-
-Performed web application firewall detection to identify potential WAF technologies.
-
-### 🔎 6. Network Discovery
-**Tools:** Nmap | Zenmap
-
-Performed host discovery scans, reviewed scan results, exported XML output, and documented network topology.
+| No. | Practical Area | Tools Used | Key Activity |
+|:---:|---|---|---|
+| 01 | 🌍 Domain Footprinting | WHOIS | Domain registration lookup |
+| 02 | 🛰️ DNS Enumeration | NSLookup, DNSRecon | DNS record enumeration |
+| 03 | 🌐 Web Technology Analysis | WhatWeb | Website technology identification |
+| 04 | 📡 HTTP Header Analysis | cURL | HTTP request and response analysis |
+| 05 | 🛡️ WAF Detection | Wafw00f | Firewall detection |
+| 06 | 🔎 Network Discovery | Nmap, Zenmap | Host discovery and scan visualization |
 
 📡 Network Discovery
 The network discovery practical involved:
