@@ -1,0 +1,11 @@
+Server:		192.168.29.1
+Address:	192.168.29.1#53
+
+Non-authoritative answer:
+Name:	example.com
+Address: 104.20.23.154
+Name:	example.com
+Address: 172.66.147.243
+Name:	example.com
+Address: 2606:4700:9c65:72db:f2c6:d5:ef6b:ff98
+

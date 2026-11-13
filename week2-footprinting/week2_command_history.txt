@@ -1,0 +1,204 @@
+    1  kali-linux-headless
+    2  kali-tools-
+    3  apt update
+    4  apt install iw -y
+    5  sudo apt update && sudo apt upgrade -y
+    6  curl -fsSL https://archive.kali.org/archive-key.asc | sudo gpg --dearmor -o /usr/share/keyrings/kali-archive-keyring.gpg
+    7  echo "deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list
+    8  sudo apt install gnupg -y
+    9  sudo apt install kali-archive-keyring
+   10  sudo apt full-upgrade -y
+   11  sudo apt install kali-archive-keyring
+   12  echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list
+   13  sudo apt update
+   14  sudo apt update --allow-insecure-repositories
+   15  sudo apt install -y kali-archive-keyring
+   16  sudo apt install --allow-unauthenticated kali-archive-keyring -y
+   17  sudo apt update
+   18  sudo apt full-upgrade -y
+   19  sudo apt install kali-linux-default -y
+   20  curl https://example.com
+   21  curl -I https://example.com
+   22  cd~
+   23  mkdir web-security-labs
+   24  cd web-security-labs
+   25  mkdir xss
+   26  nano xss/reflected-xss-js-context.md
+   27  git --version
+   28  cd ~
+   29  cd web-security-labs
+   30  /mnt/c/Users/Shiva kumar/web-security-labs
+   31  cd ~
+   32  pwd
+   33  ls
+   34  web-security-labs
+   35  cd /mnt/c/Users/Shiva\ kumar/web-security-labs
+   36  pwd
+   37  web-security-labs
+   38  whoami
+   39  cd ~
+   40  ls
+   41  cd ~
+   42  ls
+   43  cd /mnt/c/Users/Shiva\ kumar/web-security-labs
+   44  ls xss
+   45  git init
+   46  git add .
+   47  git commit -m "Add reflected XSS lab notes"
+   48  git branch -M main
+   49  git remote add origin https://github.com/YOUR_USERNAME/web-security-labs.git
+   50  git push -u origin main
+   51  git branch -M main
+   52  git remote add origin https://github.com/YOUR_USERNAME/web-security-labs.git
+   53  git push -u origin main
+   54  git branch -M main
+   55  git remote add origin https://github.com/YOUR_USERNAME/web-security-labs.git
+   56  git push -u origin main
+   57  git branch -M main
+   58  git remote add origin https://github.com/YOUR_USERNAME/web-security-labs.git
+   59  git push -u origin main
+   60  /mnt/c/Users/Shiva kumar/web-security-labs
+   61  git remote set-url origin https://github.com/harshitak-88/web-security-labs.git
+   62  git push -u origin main
+   63  git remote set-url origin https://github.com/harshitak-88/web-security-lab.git
+   64  git push -u origin main
+   65  ─(root㉿Harshita)-[/mnt/c/Users/Shiva kumar/web-security-labs]
+   66  └─# git push -u origin main
+   67  Username for 'https://github.com': harshitak-88
+   68  Password for 'https://harshitak-88@github.com':
+   69  remote: Permission to harshitak-88/web-security-lab.git denied to harshitak-88.
+   70  fatal: unable to access 'https://github.com/harshitak-88/web-security-lab.git/': The requested URL returned error: 40
+   71  pwd
+   72  ls
+   73  git remote set-url origin https://github.com/harshitak-88/web-security-lab.git
+   74  git push -u origin main
+   75  ssh-keygen -t ed25519 -C "harshitak-88"
+   76  cat ~/.ssh/id_ed25519.pub
+   77  git remote set-url origin git@github.com:harshitak-88/web-security-lab.git
+   78  git remote -v
+   79  git push -u origin main
+   80  git add README.md
+   81  git commit -m "Add README"
+   82  git push
+   83  cd /mnt/c/Users/Shiva\ kumar/web-security-labs
+   84  nano README.md
+   85  cd /mnt/c/Users/Shiva\ kumar/web-security-labs
+   86  nano README.md
+   87  ls
+   88  git add README.md
+   89  git commit -m "Add README file"
+   90  git push
+   91  curl https://example.com
+   92  curl -G "https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-string-angle-brackets-html-encoded=<script>alert('XSS')</script>"
+   93  nmap --version
+   94  nmap localhost
+   95  ip a 
+   96  nmap<your-ip>
+   97  nmap <your-ip>
+   98  nmap localhost
+   99  nmap -sV localhost
+  100  atp update
+  101  atp install apache@ -y
+  102  service apache2 start
+  103  nmap localhost
+  104  nmap -sV localhost
+  105  nmap --script vuln localhost
+  106  python --version
+  107  mkdir nmap_vuln_scanner
+  108  cd nmap_vuln_scanner
+  109  nano scanner.py
+  110  python3 scanner.py
+  111  nano scanner.py
+  112  python3 scanner.py
+  113  pwd
+  114  nano README.md
+  115  git config --global user.name "Harshita"
+  116  git config --global user.email "harshitak840@gmail.com"
+  117  git init
+  118  git branch -M main
+  119  git add .
+  120  git commit -m "Initial commit: Automated Nmap vulnerability scanner"
+  121  git remote add origin https://github.com/USERNAME/nmap-vulnerability-scanner.git
+  122  git push -u origin main
+  123  https://github.com/harshitak-88
+  124  git push -u origin main
+  125  git remote -v
+  126  git remote remove origin
+  127  git remote add origin https://github.com/harshitak-88/nmap-vulnerability-scanner.git
+  128  git push -u origin main
+  129  git remote wsl --list --verbose
+  130  cat /etc/os-release
+  131  whoami
+  132  which nmap
+  133  which msfconsole
+  134  which wireshark
+  135  nmap --version
+  136  python3 --version
+  137  pip3 --version
+  138  which nmap
+  139  nmap localhost
+  140  cd /tmp
+  141  python3 -m http.server 8000 --bind 127.0.0.1
+  142  python3 - <<'PY'
+  143  from http.server import HTTPServer, BaseHTTPRequestHandler
+  144  class SafeHandler(BaseHTTPRequestHandler):
+  145      def do_GET(self):
+  146          self.send_response(403)
+  147          self.end_headers()
+  148          self.wfile.write(b"Access denied: directory listing is disabled.")
+  149  server = HTTPServer(("127.0.0.1", 8000), SafeHandler)
+  150  print("Safe server running on port 8000")
+  151  server.serve_forever()
+  152  PY
+  153  nap-p 8000 localhost
+  154  nap-p8000localhost
+  155  nmap -p 8000 localhost
+  156  nap -p 8000 localhost
+  157  nmap -p 8000 localhost
+  158  nmap -sv -p 8000 localhost
+  159  nmap -sV -p 8000 localhost 
+  160  LS -LA /TMP
+  161  LS -L -A /TMP
+  162  LS: command not found
+  163  ls -l -a /temp
+  164  ls -l -a /tmp
+  165  ┌──(root㉿Harshita)-[~]
+  166  └─# ls -l -a /tmp
+  167  total 16
+  168  drwxrwxrwt  5 root root 4096 Dec 24  2025 .
+  169  drwxr-xr-x 25 root root 4096 Nov 11 12:24 ..
+  170  drwxr-xr-x  3 root root 4096 Dec 22  2025 dotnet-installer
+  171  drwxr-xr-x  2 root root 4096 Dec 22  2025 hsperfdata_root
+  172  drwxrwxrwx  2 root root   60 Nov 11 12:24 .X11-unix
+  173  pwd
+  174  whoami
+  175  nmap -sV -p 8000 localhost
+  176  ~ -i http://127.0.0.1:8000/
+  177  curl -i http://127.0.0.1:8000/
+  178  ip rout
+  179  ping -c 4 8.8.8.8
+  180  ping -c 4 172.17.224.1
+  181  ip addr
+  182  exit
+  183  kali
+  184  ping -c 4 8.8.8.8
+  185  wsl --list --verbose
+  186  exit
+  187  ping -c 4 8.8.8.8
+  188  exit
+  189  ping -c 4 172.17.224.1
+  190  [200~ping -c 4 172.17.224.1~
+  191  ping -c 4 172.17.224.1
+  192  ip neigh show 172.17.224.1
+  193  [200~Get-NetAdapter -IncludeHidden | Where-Object {$_.Name -like "*WSL*"} | Format-List Name,Status,MacAddress~
+  194  Get-NetAdapter -IncludeHidden | Where-Object {$_.Name -like "*WSL*"} | Format-List Name,Status,MacAddress
+  195  exit
+  196  ping -c 4 8.8.8.8
+  197  ping -c 4 google.com
+  198  whatweb example.com > whatweb.txt
+  199  history
+  200  mkdir -p ~/week2-footprinting
+  201  whatweb example.com > ~/week2-footprinting/whatweb.txt
+  202  ping -c 4 google.com
+  203  ls -l ~/whatweb.txt
+  204  history > ~/week2_command_history.txt

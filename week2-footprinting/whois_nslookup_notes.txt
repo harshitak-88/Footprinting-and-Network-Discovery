@@ -1,0 +1,28 @@
+WEEK 2 - WHOIS AND NSLOOKUP FINDINGS
+
+1. WHOIS
+Command used:
+whois 104.20.23.154
+
+Recovered findings:
+NetRange: 104.16.0.0 - 104.31.255.255
+CIDR: 104.16.0.0/12
+NetName: CLOUDFLARENET
+Organization: Cloudflare, Inc.
+Country: US
+
+Note: These findings were recovered from the earlier conversation, not from a saved raw terminal output.
+
+2. NSLOOKUP
+Command used:
+nslookup example.com
+
+Recovered finding:
+The domain resolved to IPv4 and IPv6 addresses.
+
+DNSRecon independently confirmed:
+A: 172.66.147.243
+A: 104.20.23.154
+AAAA: 2606:4700:9c65:72db:f274:b2f:ef6b:ff98
+
+Note: Original NSLOOKUP terminal output was not saved.
