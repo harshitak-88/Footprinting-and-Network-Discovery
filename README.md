@@ -93,7 +93,3 @@ The practical report also discusses scan limitations and observations, including
 These exercises were conducted for educational purposes in an authorized environment.
 
 Network scanning and reconnaissance should only be performed on systems and networks for which permission has been granted.
-<div align="center">💻 LEARNING CYBERSECURITY THROUGH PRACTICAL EXPLORATION
-Documenting the journey, one practical at a time.
-</div>
-```
