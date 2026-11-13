@@ -65,16 +65,26 @@ Footprinting-and-Network-Discovery/
     ├── whatweb.txt
     ├── whois.txt
     └── whois_nslookup_notes.txt
-## 🔍 Practical Work
 
-| No. | Practical Area | Tools Used | Key Activity |
-|:---:|---|---|---|
-| 01 | 🌍 Domain Footprinting | WHOIS | Domain registration lookup |
-| 02 | 🛰️ DNS Enumeration | NSLookup, DNSRecon | DNS record enumeration |
-| 03 | 🌐 Web Technology Analysis | WhatWeb | Website technology identification |
-| 04 | 📡 HTTP Header Analysis | cURL | HTTP request and response analysis |
-| 05 | 🛡️ WAF Detection | Wafw00f | Firewall detection |
-| 06 | 🔎 Network Discovery | Nmap, Zenmap | Host discovery and scan visualization |
+⚡ PRACTICAL WORK
+🌍 01 | DOMAIN FOOTPRINTING
+Tool: WHOIS
+Explored domain registration details.
+🛰️ 02 | DNS ENUMERATION
+Tools: NSLookup · DNSRecon
+Performed DNS lookups and examined DNS records.
+🌐 03 | WEB TECHNOLOGY ANALYSIS
+Tool: WhatWeb
+Identified website technologies.
+📡 04 | HTTP HEADER ANALYSIS
+Tool: cURL
+Inspected HTTP response headers.
+🛡️ 05 | FIREWALL DETECTION
+Tool: Wafw00f
+Checked for web application firewall technologies.
+🔎 06 | NETWORK DISCOVERY
+Tools: Nmap · Zenmap
+Performed host discovery and analyzed network scan results.
 
 📡 Network Discovery
 The network discovery practical involved:
@@ -84,6 +94,7 @@ The network discovery practical involved:
 - Exporting scan results in XML format.
 - Documenting the observed network topology.
 The practical report also discusses scan limitations and observations, including repeated MAC address values in the scan output.
+
 📚 Key Learnings
 - Understanding the reconnaissance phase of cybersecurity.
 - Working with DNS and domain information.
